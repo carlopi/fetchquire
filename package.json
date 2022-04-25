@@ -1,0 +1,26 @@
+{
+  "name": "fetchquire",
+  "version": "0.1.0",
+  "description": "Fetch / readFile / read patchwork",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlopi/fetchquire.git"
+  },
+  "keywords": [
+    "fetch",
+    "readFile",
+    "read",
+    "require",
+    "file"
+  ],
+  "author": "Carlo Piovesan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlopi/fetchquire/issues"
+  },
+  "homepage": "https://github.com/carlopi/fetchquire#readme"
+}
