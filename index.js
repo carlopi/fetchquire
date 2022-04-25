@@ -8,6 +8,7 @@ function fetchquire(path) {
           else y(d);
         });
       })
+        .catch((e) => new Promise((y, n) => {Deno.readFile(path).then(x=>y(x),x=>n(x));}))
         .catch((e) => new Promise((y, n) => y(read(path, "binary"))))
         .catch((e) => new Error("Fetchquire failed"))
     );
