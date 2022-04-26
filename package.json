@@ -5,7 +5,7 @@
   "main": "commonjs.js",
   "browser": "closure.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests/require.js"
   },
   "repository": {
     "type": "git",
