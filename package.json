@@ -2,7 +2,8 @@
   "name": "fetchquire",
   "version": "0.1.0",
   "description": "Fetch / readFile / read patchwork",
-  "main": "index.js",
+  "main": "commonjs.js",
+  "browser": "closure.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
